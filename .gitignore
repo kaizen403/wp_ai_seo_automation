@@ -1,0 +1,43 @@
+# Dependency directories
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+
+# Build artifacts
+dist/
+build/
+.wrangler/
+
+# Environment and credentials
+*.env
+.env.*
+secrets.json
+.secrets/
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# Wrangler KV/Durable Object dumps
+kv-export.json
+do-state.json
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.DS_Store
+Thumbs.db
+
+# Large media
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.mp4
+*.mov
+*.avi
+*.mkv

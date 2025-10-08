@@ -1,0 +1,61 @@
+{
+  "urls": [
+    {
+      "url": "https://www.securityweek.com/critical-vulnerability-discovered-in-enterprise-software/",
+      "title": "Critical Vulnerability Discovered in Enterprise Software",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/ransomware-group-targets-healthcare-sector/",
+      "title": "Ransomware Group Targets Healthcare Sector",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/new-zero-day-exploit-found-in-widely-used-framework/",
+      "title": "New Zero-Day Exploit Found in Widely Used Framework",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/data-breach-exposes-millions-of-customer-records/",
+      "title": "Data Breach Exposes Millions of Customer Records",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/ai-powered-phishing-attacks-on-the-rise/",
+      "title": "AI-Powered Phishing Attacks on the Rise",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/new-malware-variant-targets-mobile-banking-apps/",
+      "title": "New Malware Variant Targets Mobile Banking Apps",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/supply-chain-attack-compromises-popular-software-library/",
+      "title": "Supply Chain Attack Compromises Popular Software Library",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/government-agencies-warned-of-new-apt-group/",
+      "title": "Government Agencies Warned of New APT Group",
+      "description": "",
+      "snippet": ""
+    },
+    {
+      "url": "https://www.securityweek.com/cloud-security-misconfiguration-leads-to-major-leak/",
+      "title": "Cloud Security Misconfiguration Leads to Major Leak",
+      "description": "",
+      "snippet": ""
+    }
+  ],
+  "lastFetched": "2025-10-08T10:00:00.000Z"
+}
+
+

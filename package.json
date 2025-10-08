@@ -1,0 +1,34 @@
+{
+  "name": "ai_seo",
+  "version": "2.0.0",
+  "description": "AI-powered SEO blog automation with queue system for daily posting",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test-queue": "./test-queue.sh",
+    "fetch-urls": "curl -X POST http://localhost:8787/fetch-urls",
+    "queue-status": "curl http://localhost:8787/queue-status",
+    "post-now": "curl -X POST http://localhost:8787/post-from-queue -H 'Content-Type: application/json' -d '{\"publish\":true}'",
+    "post-draft": "curl -X POST http://localhost:8787/post-from-queue -H 'Content-Type: application/json' -d '{\"publish\":false}'"
+  },
+  "keywords": [
+    "seo",
+    "automation",
+    "blog",
+    "wordpress",
+    "ai",
+    "groq",
+    "firecrawl",
+    "queue",
+    "scheduler"
+  ],
+  "author": "kaizen",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "dotenv": "^17.2.3",
+    "hono": "^4.9.10"
+  }
+}

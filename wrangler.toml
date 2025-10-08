@@ -1,0 +1,17 @@
+name = "hackernews-worker"
+main = "index.js"
+compatibility_date = "2024-10-07"
+
+[[durable_objects.bindings]]
+name = "PUBLISH_STATE"
+class_name = "PublishState"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["PublishState"]
+
+[triggers]
+crons = ["30 18 * * *"] # 00:00 IST daily (UTC+05:30)
+
+[vars]
+HTTP_USER_AGENT = "Mozilla/5.0 (compatible; HackerNewsWorker/1.0)"
